@@ -5,9 +5,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="finished.html" th:action="@{ex2/cal}" method="post" th:object="${ex07ReceiveForm}">
+	<form action="exam02-result" th:action="@{ex2/cal}" method="post">
 	数字を入れてください
-		<input type="text" name="num1" th:field="*{num1}">+<input type="text" name="num2" th:field="*{num2}">=
+		<input type="text" name="num1">+<input type="text" name="num2">=
 		<button>足し算をする</button>
 	</form>
 </body>
